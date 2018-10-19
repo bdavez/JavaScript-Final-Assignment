@@ -117,7 +117,7 @@ header {
   background: url("../img/hero1.jpg");
   background-position: 50% 50%;
   background-size: cover;
-  height: 30vh;
+  height: 300px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -273,6 +273,7 @@ input:valid {
   right: 0;
   margin: auto;
   margin-top: 100px;
+  margin-bottom: 100px;
   width: 300px; }
 
 #agencyInfoContents {
