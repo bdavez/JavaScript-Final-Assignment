@@ -302,7 +302,10 @@ input:valid {
     color: #3964A9;
     font-family: "Bree Serif", serif; }
   .about-main p {
-    font-family: "Bree Serif", serif; }
+    font-family: "Bree Serif", serif; 
+    display: block;
+    max-width: 100%;
+    flex-shrink: 1; }
 
 .pic-wrapper {
   position: absolute;
