@@ -5,4 +5,4 @@
 <p>Date: Oct.19 2018</p>
 <p>Course: CPNT-262</p>
 <p>Assignment: Final Project</p>
-<p>demo.bdavez.com</p>
+<a href="demo.bdavez.com">Demo Site</a>
