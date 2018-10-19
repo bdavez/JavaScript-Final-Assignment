@@ -1,0 +1,76 @@
+<!--
+    Author: Brendan Davis
+    Email: davis.045@gmail.com
+    Date: Oct.19 2018
+    Course: CPNT-262
+    Assignment: Final Project 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
+    <link rel="stylesheet" href="./css/app.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav-main">
+            <div class="logo">
+                <a href="./index.html"><i class="fas fa-globe-americas fa-2x"></i>&nbsp;BDV Travel</a>
+            </div>
+            <ul class="desktop-menu">
+                <li><a href="./packages.html">Packages</a></li>
+                <li><a href="./registration.html">Registration</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+            </ul>
+
+            <div class="mobile-nav-icon">
+                <a href="javascript:void(0)" onclick="openNav()">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+        <div class="mobile-nav" id="nav-mobile">
+            <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                    <i class="fas fa-times"></i>
+                </a></li>
+            <li><a href="./index.html">Homepage</a></li>
+            <li><a href="./packages.html">Vacation Packages</a></li>
+            <li><a href="./registration.html">Customer Registration</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+        </div>
+    </header>
+
+    <div class="hero">
+        <h2>Contact Us</h2>
+    </div>
+
+    <div class="agency-info">
+        <div id="agencyInfoContents">
+            <h4>Contact Us</h4>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-main">
+            <img id="plane" style="position:fixed; left: 0;" src="./img/plane.png">
+            <h4 id="footerClock"></h4>
+        </div>
+    </footer>
+
+    <script src="./js/nav-menu.js"></script>
+    <script src="./js/planeFly.js"></script>
+    <script src="./js/footerClock.js"></script>
+    <script src="./js/array.js"></script>
+</body>
+
+</html>
